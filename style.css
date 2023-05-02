@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    
+}
+.con{
+    margin: 1rem;
+    padding: 3rem;
+    margin: auto;
+    min-height: 100vh;
+    width: 80%;
+    background-color: rgb(66, 66, 66);
+}
+.con input{
+    color: black;
+    padding: 10px;
+    margin-top: 1rem;
+    outline: none;
+    height: 1rem;
+    width: 14rem;
+    border-radius: .3rem;
+    border: none;
+}
+.con button{
+    margin-left: .5rem;
+    margin-top: 1rem;
+    background-color: rgb(176, 99, 248);
+    cursor: pointer;
+    outline: none;
+    height: 2.3rem;
+    border: none;
+    width: 14rem;
+    border-radius: .3rem;
+    font-size: 1rem;
+}
+.con button:hover{
+    transition: all .5s;
+    background-color: rgb(153, 59, 241);
+}
+.paras{
+    margin-top: 2rem;
+    color: black;
+    padding: 1rem;
+    background-color: rgb(207, 201, 201);
+    border-radius: 10px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
