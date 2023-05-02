@@ -2,9 +2,9 @@ const input = document.getElementById("inp");
 const con = document.querySelector(".con");
 const gettext = (len)=>{
     const str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    let random = (Math.random() * 25).toFixed(0);
     let ans ="";
     for(let i=0;i<len;i++){
+       let random = (Math.random() * 25).toFixed(0);
        ans += str[random];
     }
     return ans;
